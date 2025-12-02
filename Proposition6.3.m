@@ -32,6 +32,7 @@ printf "Igusa Igusa Invariants:";
 
 print(L);
 
+print " ";
 //==============================================
 // Computations for Theorem 1 of [Liu93]
 
@@ -90,6 +91,7 @@ for q in [3,5] do
 		eps := 1;
 	end if;
 
+	print " ";
 	printf "The values of Case (V) for q = %o :",q;
  	print " ";
 
@@ -137,4 +139,3 @@ for q in [3,5] do
 		assert Case5 eq CaseV; // Equations of Case (V) are correct
 	end if;
 end for;
-
