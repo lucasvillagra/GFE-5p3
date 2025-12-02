@@ -15,4 +15,3 @@ Loading "MagmaCode.m"
 
 > BoundIrreducibility(5,2,4);
 335809
-> 
