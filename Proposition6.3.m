@@ -24,7 +24,7 @@ Igusa :=
 	2388787200000*t^10 - 4777574400000*t^9 + 2388787200000*t^8
 ];
 
-assert Igusa eq L; // Igusa invariants are correc
+assert Igusa eq L; // Igusa invariants are correct
 
 // L[i] = J_{2i}
 
