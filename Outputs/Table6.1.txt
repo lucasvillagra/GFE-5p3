@@ -1,0 +1,17 @@
+Magma V2.29-2     Tue Dec  2 2025 16:10:04 on shanks   [Seed = 4004036178]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+> load "MagmaCode.m";
+Loading "MagmaCode.m"
+
+> time Table(2,2);
+[ 45, 14, 4 ]
+Time: 2.650
+
+> time Table(3,2);
+[ 405, 111, 11 ]
+Time: 51.740
+
+> time Table(2,3);
+[ 225, 35, 21 ]
+Time: 8.600
