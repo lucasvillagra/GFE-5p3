@@ -20,7 +20,7 @@ For each result that requires computation, we list below the file containing the
 
 - Function _MagmaInput_ in _GPcode.gp_ . See _Data.txt_ for the output.
 
-- Function _MagmaInput_ in _MagmaCode.m_ . See _TheoremA.txt_ for the output.
+- Function _TheoremA_ in _MagmaCode.m_ . See _TheoremA.txt_ for the output.
 
 
 
