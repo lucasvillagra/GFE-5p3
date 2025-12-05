@@ -12,7 +12,7 @@ For each result that requires computation, we list below the file containing the
 
 **• Theorem 7.12** : Function _Case1Bound_ in _MagmaCode.m_ . See _Case1Bound.txt_ for the output.
 
-**• Section 7.1** : Script _CurveConstruction.m_ to compute the curve C^_{5,3}. See _CurveConstruction.txt_ for the output.
+**• Section 7.1** : Script _CurveConstruction.m_ to compute the curve C^+_{5,3}. See _CurveConstruction.txt_ for the output.
 
 **• Theorem 7.7** : Script _IrredTest.m_ to verify the irreducibility condition of F(x).
 
