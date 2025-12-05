@@ -1,0 +1,9 @@
+Magma V2.29-2     Fri Dec  5 2025 09:36:16 on shanks   [Seed = 524593140]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+> load "CurveConstruction.m";
+
+Loading "CurveConstruction.m"
+Time: 243.110
+Hyperelliptic Curve defined by y^2 = 45*x^6 - 108*x^5 + 90*t*x^3 + 9*t^2 over
+Univariate rational function field over Rational Field
