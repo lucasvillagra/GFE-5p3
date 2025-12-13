@@ -1,4 +1,4 @@
-// Script to verify computations in Proposition 6.3
+// Script to verify computations in Proposition 7.4
 
 K<z> := QuadraticField(5);
 OK := Integers(K);
