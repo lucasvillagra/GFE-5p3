@@ -2,7 +2,7 @@
 
 This git repository contains files related to the computational part of the article: "On the generalized Fermat equation of signature (5,p,3)", avaliable at ArXiv. 
 
-For each result that requires computation, we list below the file containing the code to accomplish this:
+For each result that requires computation, we list below the file containing the code to accomplish it:
 
 **• Table 7.2** : Function _Table_ in _MagmaCode.m_ . See _Table.txt_ for the output.
 
