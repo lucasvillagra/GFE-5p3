@@ -1,4 +1,4 @@
-// Script to check the conductor exponent at (sqrt(5)) in Theorem 7.7
+// Script to check the conductor exponent at (sqrt(5)) in Theorem 7.8
 
 /* We want to check irreducibility of F(x) over Q_5,
 		where F(x) = a^5f(x/a) + 2a^5 + 4c^3 
