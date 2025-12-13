@@ -10,6 +10,8 @@ For each result that requires computation, we list below the file containing the
 
 **• Proposition 6.3** : Script _IgusaIn.m_. See _IgusaIn.txt_ for the output.
 
+**• Lemma 7.3** : Script _CharPoly.m_. See _CharPoly.txt_ for the output.
+
 **• Theorem 7.12** : Function _Case1Bound_ in _MagmaCode.m_ . See _Case1Bound.txt_ for the output.
 
 **• Section 7.1** : Script _CurveConstruction.m_ to compute the curve C^+_{5,3}. See _CurveConstruction.txt_ for the output.
