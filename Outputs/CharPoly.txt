@@ -1,0 +1,16 @@
+Magma V2.29-2     Sat Dec 13 2025 11:46:04 on shanks   [Seed = 1442988900]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+> load "CharPoly.m";                                                                                                                                                                 
+Loading "CharPoly.m"
+
+The following is Table 7.1:
+<7, x^4 + 10*x^3 + 123*x^2 + 490*x + 2401, x^4 - 20*x^3 + 198*x^2 - 980*x + 2401>
+<11, x^4 - x^3 + 21*x^2 - 11*x + 121, x^4 + x^3 + 21*x^2 + 11*x + 121>
+<29, x^4 - 2*x^3 + 14*x^2 - 58*x + 841, x^4 + 5*x^3 + 53*x^2 + 145*x + 841>
+
+Characteristic polynomial of the Frobenius 
+   endomorphism acting on E_3(3)
+<7, x^2 + 10*x + 49>
+<11, x^2 - 3*x + 11>
+<29, x^2 + 6*x + 29>
