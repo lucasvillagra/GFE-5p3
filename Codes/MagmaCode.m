@@ -14,7 +14,7 @@
 
 
 //=====================================================================================
-// Script to compute the data of Table 6.1.
+// Script to compute the data of Table 7.2.
 
 /*
 	INPUT:
@@ -39,7 +39,7 @@ Table:=function(i,j)
 end function;
 
 //=====================================================================================
-//Function to compute the bound in Corollary 6.6
+//Function to compute the bound in Corollary 7.7
 
 //Function to compute the Bound to prove irreducibility under the condition l \nmid b. 
 
