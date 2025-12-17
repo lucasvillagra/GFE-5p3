@@ -18,7 +18,7 @@ For each result that requires computation, we list below the file containing the
 
 **• Theorem A** : 
 
-- Function _MagmaInput_ in _GPcode.gp_ . See _Data.txt_ for the output.
+- Function _MagmaInput_ in _GPcode.gp_ . See _Data.txt_ for the output and the file _Datatimes.txt._ to see how long it takes to produce the file with our PARI/GP version and the machines used. 
 
 - Function _TheoremA_ in _MagmaCode.m_ . See _TheoremA.txt_ for the output.
 
