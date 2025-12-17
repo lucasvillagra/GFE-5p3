@@ -1,0 +1,162 @@
+Magma V2.29-2     Tue Dec  2 2025 17:55:36 on shanks   [Seed = 3785874143]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+> load "MagmaCode.m";
+Loading "MagmaCode.m"
+
+> load "Data.txt";
+Loading "Data.txt"
+
+> time TheoremA(2,2,Data);
+
+The newforms [ 3, 9, 12 ] cannot be discarded using primes in [ 7, 11, 13, 17,
+19, 29, 31, 41, 59, 61, 71, 79, 89, 101, 109, 131, 139, 149, 151, 179, 181, 191,
+199, 211, 229, 239, 241, 251, 269, 271, 281, 311, 331, 349, 359, 379, 389 ].
+The rest of the newforms can be discarded for p outside  [ 2, 3, 5, 11, 19, 29 ]
+Time: 57.710
+
+> time TheoremA(2,3,Data);
+
+The newforms [ 1, 7, 11, 12, 13, 16, 21 ] cannot be discarded using primes in [
+7, 11, 13, 17, 19, 29, 31, 41, 59, 61, 71, 79, 89, 101, 109, 131, 139, 149, 151,
+179, 181, 191, 199, 211, 229, 239, 241, 251, 269, 271, 281, 311, 331, 349, 359,
+379, 389 ].
+The rest of the newforms can be discarded for p outside  [ 2, 3, 5, 7, 11, 13, 19, 29, 31 ]
+Time: 105.130
+
+> time TheoremA(3,2,Data:flag := true);
+
+i = 1 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 2 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 3 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 4 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 5 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 6 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 7 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 8 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 9 of 111, small exponents after elimination = [ 2, 3, 11, 19 ]
+i = 10 of 111, small exponents after elimination = [ 2, 3, 5 ]
+i = 11 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 12 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 13 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 14 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 15 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 16 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 17 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 18 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 19 of 111, small exponents after elimination = [ 2, 3, 5 ]
+i = 20 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 21 of 111, small exponents after elimination = [ 2, 3, 5, 7 ]
+i = 22 of 111, small exponents after elimination = [ 2, 3, 5, 7, 11, 19 ]
+i = 23 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 24 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 25 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 26 of 111, small exponents after elimination = [ 2, 3, 5, 7, 11, 19 ]
+i = 27 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 28 of 111, small exponents after elimination = [ 2, 3, 5 ]
+i = 29 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 30 of 111, small exponents after elimination = [ 2, 3 ]
+i = 31 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 32 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 33 of 111, small exponents after elimination = [ 2, 3, 7 ]
+i = 34 of 111, small exponents after elimination = [ 2, 3, 5 ]
+i = 35 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 36 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 37 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 38 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 39 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 40 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 41 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 42 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 43 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 44 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 45 of 111, small exponents after elimination = [ 2, 3, 5 ]
+i = 46 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 47 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 48 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 49 of 111, small exponents after elimination = [ 2, 3, 11, 19 ]
+i = 50 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 51 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 52 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 53 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 54 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 55 of 111, small exponents after elimination = [ 2, 3, 5, 11 ]
+i = 56 of 111, small exponents after elimination = [ 3 ]
+i = 57 of 111, small exponents after elimination = [ 3, 29 ]
+i = 58 of 111, small exponents after elimination = [ 2, 3 ]
+i = 59 of 111, small exponents after elimination = [ 3, 29 ]
+i = 60 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 61 of 111, small exponents after elimination = [ 2, 3, 7 ]
+i = 62 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 63 of 111, small exponents after elimination = [ 3 ]
+i = 64 of 111, small exponents after elimination = [ 2, 3, 11, 17, 19, 29, 31,
+59, 61, 71, 131, 139, 181, 431, 571, 599, 9721 ]
+i = 65 of 111 failed using [ 7, 11, 13, 17, 19, 29, 31, 41, 59, 61, 71, 79, 89,
+101, 109, 131, 139, 149, 151, 179, 181, 191, 199, 211, 229, 239, 241, 251, 269,
+271, 281, 311, 331, 349, 359, 379, 389 ]
+i = 66 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 67 of 111, small exponents after elimination = [ 2, 3, 41 ]
+i = 68 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 69 of 111, small exponents after elimination = [ 2, 3, 5, 11, 17, 19, 29,
+31, 41, 61, 79, 101, 139, 571, 719, 9721 ]
+i = 70 of 111, small exponents after elimination = [ 2, 3, 19, 29 ]
+i = 71 of 111, small exponents after elimination = [ 2, 3 ]
+i = 72 of 111, small exponents after elimination = [ 2, 3 ]
+i = 73 of 111, small exponents after elimination = [ 2, 3, 11, 17, 19, 29, 31,
+59, 61, 71, 131, 139, 181, 431, 571, 599, 9721 ]
+i = 74 of 111, small exponents after elimination = [ 2, 3 ]
+i = 75 of 111, small exponents after elimination = [ 2, 3, 5, 11, 19 ]
+i = 76 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 77 of 111, small exponents after elimination = [ 2, 3, 11, 17, 19, 29, 31,
+59, 61, 71, 131, 139, 181, 431, 571, 599, 9721 ]
+i = 78 of 111 failed using [ 7, 11, 13, 17, 19, 29, 31, 41, 59, 61, 71, 79, 89,
+101, 109, 131, 139, 149, 151, 179, 181, 191, 199, 211, 229, 239, 241, 251, 269,
+271, 281, 311, 331, 349, 359, 379, 389 ]
+i = 79 of 111, small exponents after elimination = [ 2, 3, 5, 11, 17, 19, 29,
+31, 41, 61, 79, 101, 139, 571, 719, 9721 ]
+i = 80 of 111, small exponents after elimination = [ 3, 29 ]
+i = 81 of 111, small exponents after elimination = [ 2, 3, 41 ]
+i = 82 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 83 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 84 of 111, small exponents after elimination = [ 3 ]
+i = 85 of 111, small exponents after elimination = [ 2, 3 ]
+i = 86 of 111, small exponents after elimination = [ 3 ]
+i = 87 of 111, small exponents after elimination = [ 3, 29 ]
+i = 88 of 111, small exponents after elimination = [ 2, 3, 31, 41, 61 ]
+i = 89 of 111, small exponents after elimination = [ 3, 5 ]
+i = 90 of 111, small exponents after elimination = [ 3, 5 ]
+i = 91 of 111, small exponents after elimination = [ 3, 5 ]
+i = 92 of 111, small exponents after elimination = [ 3, 5, 7 ]
+i = 93 of 111, small exponents after elimination = [ 2, 3, 31, 41, 61 ]
+i = 94 of 111, small exponents after elimination = [ 2, 3, 31, 41, 61 ]
+i = 95 of 111, small exponents after elimination = [ 3, 5 ]
+i = 96 of 111, small exponents after elimination = [ 3, 5 ]
+i = 97 of 111, small exponents after elimination = [ 3, 5 ]
+i = 98 of 111, small exponents after elimination = [ 3, 5, 7 ]
+i = 99 of 111, small exponents after elimination = [ 2, 3, 31, 41, 61 ]
+i = 100 of 111, small exponents after elimination = [ 2, 3 ]
+i = 101 of 111, small exponents after elimination = [ 2, 3, 5, 19 ]
+i = 102 of 111, small exponents after elimination = [ 2, 3 ]
+i = 103 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 104 of 111, small exponents after elimination = [ 2, 3 ]
+i = 105 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 106 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 107 of 111, small exponents after elimination = [ 2, 3, 11 ]
+i = 108 of 111, small exponents after elimination = [ 2, 3 ]
+i = 109 of 111, small exponents after elimination = [ 2, 3 ]
+i = 110 of 111, small exponents after elimination = [ 2, 3, 5 ]
+i = 111 of 111, small exponents after elimination = [ 2, 3, 5, 19 ]
+The newforms [ 65, 78 ] cannot be discarded using primes in [ 7, 11, 13, 17, 19,
+29, 31, 41, 59, 61, 71, 79, 89, 101, 109, 131, 139, 149, 151, 179, 181, 191,
+199, 211, 229, 239, 241, 251, 269, 271, 281, 311, 331, 349, 359, 379, 389 ].
+The rest of the newforms can be discarded for p outside  [ 2, 3, 5, 7, 11, 17, 19, 29, 31, 41, 59, 61, 71, 79, 101, 131, 139, 181, 431,
+571, 599, 719, 9721 ]
+Time: 252.740
+
+> time TheoremA(3,3,Data);
+
+The newforms [ 22, 39 ] cannot be discarded using primes in [ 7, 11, 13, 17, 19,
+29, 31, 41, 59, 61, 71, 79, 89, 101, 109, 131, 139, 149, 151, 179, 181, 191, 
+199, 211, 229, 239, 241, 251, 269, 271, 281, 311, 331, 349, 359, 379, 389 ].
+The rest of the newforms can be discarded for p outside  [ 2, 3, 5, 7, 11, 13, 19, 29, 31, 41, 61, 71, 79, 89, 101, 109 ]
+Time: 4122.890
