@@ -1,6 +1,6 @@
 # Code for the article: On the generalized Fermat equation of signature (5,p,3)  
 
-This git repository contains files related to the computational part of the article: "On the generalized Fermat equation of signature (5,p,3)", avaliable at ArXiv. 
+This git repository contains files related to the computational part of the article: "On the generalized Fermat equation of signature (5,p,3)", avaliable in arXiv, at https://arxiv.org/abs/2512.17845. 
 
 For each result that requires computation, we list below the file containing the code to accomplish it:
 
